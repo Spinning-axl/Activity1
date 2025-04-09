@@ -7,6 +7,8 @@ class Program
         Console.WriteLine("C# Functions");
 
         // Calling a function with no parameters and no return value
+        testPull();
+        
         SayHello();
 
         // Calling a function with parameters and no return value
@@ -22,6 +24,11 @@ class Program
     }
 
     // Function with no parameters and no return value
+    static void testPull()
+    {
+        Console.WriteLine("Pull")
+    }
+    
     static void SayHello()
     {
         Console.WriteLine("Hello World!");
