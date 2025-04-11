@@ -10,7 +10,7 @@ class Program
         HelloWorld();
 
         // Calling a function with parameters and no return value
-        Introduce("Axel");
+        Introduce("John Axel");
 
         // Calling a function with parameters and a return value
         int age = ageCalcu(2025, 2003);
